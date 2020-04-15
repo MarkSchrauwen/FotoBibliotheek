@@ -6,7 +6,7 @@ Goal : Implementation of a Database for a photo library keeping track of file-lo
 - performing queries (date, primary theme, tags,..) etc...
 
 Structure of database: relational database
-- Foto_Identificatie: main storage of details about photo (Foto_Id,FotoYear, FotoMonth, FotoDay, Genre_Id, Foto_Teller, FotoExt, FotoPath_Id, FotoDrive_Id, Plaats_Id, FotoTag_Id, Thumbnail)
+- Foto_Identificatie: main storage of details about photo (Foto_Id,FotoYear, FotoMonth, FotoDay, Genre_Id, Foto_Teller, FotoExt, FotoPath_Id, Plaats_Id, FotoTag_Id, Thumbnail)
 - Foto_Genre: Genre_Id, Genre
 - FotoPath : FotoPath_Id stores the path, driver, server
 - FotoPlaats: Plaats_Id, Land, Plaats
